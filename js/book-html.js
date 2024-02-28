@@ -18,19 +18,19 @@ function loadHTML(filePath) {
 }
 
 document.getElementById('don-quixote-img').addEventListener('click', function() {
-    loadHTML('cervantes-data.html');
+    loadHTML('../data/cervantes-data.html');
     changeImageOpacity();
     this.style.opacity = '1';
 });
 
 document.getElementById('two-cities-img').addEventListener('click', function() {
-    loadHTML('dickens-data.html');
+    loadHTML('../data/dickens-data.html');
     changeImageOpacity();
     this.style.opacity = '1';
 });
 
 document.getElementById('lotr-img').addEventListener('click', function() {
-    loadHTML('tolkien-data.html');
+    loadHTML('../data/tolkien-data.html');
     changeImageOpacity();
     this.style.opacity = '1';
 });
